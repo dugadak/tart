@@ -4,7 +4,8 @@
 3) docker X(MAC) brew install redis 명령어 사용
 
 python manage.py runserver 명령어 사용
-http://127.0.0.1:8000/chat/ 접속시 원하는 채팅방의 이름으로 개설 또는 접속 가능
+http://127.0.0.1:8000/chat/ 접속시
+원하는 채팅방의 이름으로 개설 또는 접속 가능
 ex) 123 입력
 
 enter 버튼 클릭 or enter
