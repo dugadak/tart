@@ -1,0 +1,9 @@
+from django.db import models
+
+class ChatMessage(models.Model):
+    class Meta:
+        db_table = "message"
+
+    chatroom = models.TextField()
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
